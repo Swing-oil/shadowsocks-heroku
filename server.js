@@ -79,7 +79,7 @@
     res.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    return res.end("Welcome to Heroku https://github.com/onplus/shadowsocks-heroku");
+    return res.end("Do a good job!It is working now! 干得好！服务器正在运行！");
   });
 
   wss = new WebSocketServer({

@@ -79,7 +79,7 @@
     res.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    return res.end("Do a good job!It is working now! 干得好！服务器正在运行！ It is by S-O");
+    return res.end("Do a good job!It is working now!  CopyRight@2018,by S-O");
   });
 
   wss = new WebSocketServer({
